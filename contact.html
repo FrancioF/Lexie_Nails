@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Réservation — Nails by Lexie</title>
+<meta name="description" content="Prenez rendez-vous avec Nails by Lexie à Dieppe, NB — téléphone, courriel et formulaire de contact.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Nails by Lexie" class="logo-img">
+    </a>
+    <nav id="siteNav">
+      <ul>
+        <li><a class="navlink" href="index.html">Accueil</a></li>
+        <li><a class="navlink" href="about.html">À propos</a></li>
+        <li><a class="navlink" href="services.html">Services</a></li>
+        <li><a class="navlink" href="gallery.html">Galerie</a></li>
+        <li><a class="navlink active" href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn btn-gold nav-cta">Réserver</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="page-banner">
+  <div class="wrap">
+    <span class="eyebrow">Réservation</span>
+    <h1>Contact</h1>
+    <p>Une question ou prête à réserver ? Écrivez-moi ci-dessous, ou contactez-moi directement.</p>
+  </div>
+</div>
+
+<section class="section alt contact">
+  <div class="wrap">
+    <div>
+      <h2>Prendre rendez-vous</h2>
+      <p class="lead">Je réponds généralement en moins de 24 heures.</p>
+
+      <form action="https://formspree.io/f/VOTRE_ID" method="POST">
+        <div class="form-row">
+          <div>
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+          </div>
+          <div>
+            <label for="email">Courriel</label>
+            <input type="email" id="email" name="email" placeholder="vous@courriel.com" required>
+          </div>
+        </div>
+        <div>
+          <label for="service">Service souhaité</label>
+          <input type="text" id="service" name="service" placeholder="Ex. : Manucure gel, Nail art">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Dites-m'en un peu plus sur ce que vous recherchez..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold" style="align-self:flex-start; margin-top:8px;">Envoyer</button>
+      </form>
+    </div>
+
+    <div class="info-block">
+      <div class="info-row">
+        <div class="info-label">Téléphone</div>
+        <div class="info-value">(506) 555-0142</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Courriel</div>
+        <div class="info-value">bonjour@nailsbylexie.com</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Studio</div>
+        <div class="info-value">Dieppe, Nouveau-Brunswick</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">Horaire</div>
+        <div class="info-value">Mar–Sam, 9h–17h</div>
+      </div>
+
+      <div class="social-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">TikTok</a>
+      </div>
+
+      <a href="tel:+15065550142" class="btn btn-solid book-cta">Appeler maintenant</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">
+    <img src="images/logo.png" alt="Nails by Lexie" class="logo-img">
+  </div>
+  <nav class="fnav">
+    <a href="index.html">Accueil</a>
+    <a href="about.html">À propos</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Galerie</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="fsocial">
+    <a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TikTok</a>
+  </div>
+  <p>&copy; 2026 Nails by Lexie. Tous droits réservés. · Healthy Nails, Happy You.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
